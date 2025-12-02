@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Case Study — Enterprise Analytics Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav container">
+    <a class="logo" href="index.html">Gowtham G</a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <a class="btn" href="SIST-43734025-M.SC-CS-GOWTHAM G.pdf" download>Resume</a>
+  </nav>
+
+  <main class="container case-study">
+    <header>
+      <h1>Enterprise Analytics Dashboard — Case Study</h1>
+      <p class="muted">Role: Solo UX Designer • Duration: 2.5 weeks • Tools: Figma, Miro, basic analytics</p>
+    </header>
+
+    <section>
+      <h2>Project Overview</h2>
+      <p><strong>Problem:</strong> Product managers spent too long (60+ seconds) finding anomalies and exporting reports in the legacy tool. The product needed clearer visual hierarchy, faster drill-down workflows and export options.</p>
+
+      <h3>Goals</h3>
+      <ul>
+        <li>Reduce time-to-insight (target: under 30 seconds for key anomalies)</li>
+        <li>Provide clear filters and drill-downs</li>
+        <li>Create export flows (CSV/PDF) with simple steps</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Research</h2>
+      <p>Conducted 5 quick guerilla interviews with product managers & analysts (peers). Key findings:</p>
+      <ul>
+        <li>"I have to click too many filters to get the view I want." — PM</li>
+        <li>Charts lacked clear thresholds and highlights for anomalies.</li>
+        <li>Exporting took multiple steps and unclear naming.</li>
+      </ul>
+      <img src="assets/research-persona.png" alt="Persona & research notes" />
+    </section>
+
+    <section>
+      <h2>Design Process</h2>
+      <h3>1. Information Architecture & Flows</h3>
+      <p>Created a flow for: Landing → Identify anomaly → Drill-down → Export. Simplified the filter panel and added saved views.</p>
+      <img src="assets/ia-flow.png" alt="Flow diagram" />
+
+      <h3>2. Wireframes → High-Fidelity</h3>
+      <p>Explored three dashboard layouts; chose a left filter + center charts + right details panel for quick inspection.</p>
+      <div class="screenshot-grid">
+        <figure>
+          <img src="assets/wireframe.png" alt="Wireframe">
+          <figcaption>Low-fi wireframe</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/highfi-01.png" alt="High-fi">
+          <figcaption>High-fidelity final screen (overview)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Prototype & Usability Testing</h2>
+      <p>Interactive prototype created in Figma and tested with 5 users (remote). Key measurable result:</p>
+      <ul>
+        <li>Average time to find first anomaly: <strong>28s</strong> (down from 60s baseline)</li>
+        <li>Users found the export modal clearer and faster.</li>
+      </ul>
+      <img src="assets/prototype-flow.png" alt="Prototype flow" />
+    </section>
+
+    <section>
+      <h2>Design System</h2>
+      <p>Created component tokens: colors, spacing, typography and chart legend patterns. Designed button/input variants and accessible focus states.</p>
+      <img src="assets/components.png" alt="Components" />
+    </section>
+
+    <section>
+      <h2>Outcome & Learnings</h2>
+      <ul>
+        <li>Reduced time-to-insight by ~53% (qualitative baseline + prototype tests)</li>
+        <li>Better developer handoff using tokens and component screenshots</li>
+        <li>Next steps: A/B test the saved view patterns and add anomaly alerts.</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <h3>Want to see the prototype?</h3>
+      <p>Email me at <a href="mailto:muruganiaskpm24@gmail.com">muruganiaskpm24@gmail.com</a> and I’ll share the Figma link or a clickable prototype.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Gowtham G</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
